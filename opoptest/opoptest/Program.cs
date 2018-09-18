@@ -10,6 +10,9 @@ namespace opoptest
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("What just happened??!");
+            Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }
